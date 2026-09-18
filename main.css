@@ -1,3 +1,6 @@
+body {
+    background-color:black;
+}
 
 h1 {
     font-size: larger;
@@ -5,4 +8,28 @@ h1 {
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+h2, h3, p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.image-1 {
+    opacity: 80%;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 150px;
+    bottom: 0px;
+    left: 900px;
+}   
+    
+.image-1:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+        transform: rotate(5deg);
+    }
+
+    .image-1: {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
 
