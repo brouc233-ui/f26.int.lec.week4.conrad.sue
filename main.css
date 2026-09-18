@@ -1,8 +1,7 @@
-body {
-    backround-color: black
-}
 
 h1 {
     font-size: larger;
-    color: white;
+    color: red;
+    font-size: 100px;
 }
+
